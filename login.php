@@ -1,5 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+    input[type=text],
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+</style>
 
 <head>
     <meta charset="UTF-8">
@@ -9,35 +36,25 @@
 
 <body>
     <div class="full-page">
-        <div class="navbar">
-            <div>
-                <a href='website.html'>โกดังนมสด</a>
-            </div>
-
+        <div class="navbar" style="height:auto;">
+            <center>
+                <div>
+                    <a href='login.php'><img src="img/header.png" style="border-radius: 25px;" /></a>
+                </div>
+            </center>
             <div id='login-form' class='login-page'>
-                <div class="form-box">
-                    <div class='button-box'>
-                        <div id='btn'></div>
-                        <button type='button' onclick='login()' class='toggle-btn'>Log In</button>
-                        <button type='button' onclick='register()' class='toggle-btn'>Register</button>
-                    </div>
-                    <form id='login' class='input-group-login'>
-                        <input type='text' class='input-field' placeholder='Username' required>
-                        <input type='password' class='input-field' placeholder='Enter Password' required>
+                <div style="border-radius: 5px; background-color: #f2f2f2; padding: 20px; height:max-content; margin-left:250px; margin-right:250px;">
+                    <form action="/menupage.php">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" name="username" placeholder="Username">
 
-                        <button type='submit' class='submit-btn'>Log in</button>
-                    </form>
-                    <form id='register' class='input-group-register'>
-                        <input type='text' class='input-field' placeholder='First Name' required>
-                        <input type='text' class='input-field' placeholder='Last Name ' required>
-                        <input type='email' class='input-field' placeholder='Email' required>
-                        <input type='password' class='input-field' placeholder='Username' required>
-                        <input type='password' class='input-field' placeholder='Enter Password' required>
-                        <input type='password' class='input-field' placeholder='Confirm Password' required>
-
-                        <button type='submit' class='submit-btn'>Submit</button>
+                        <label for="password">Password</label>
+                        <input type="text" id="password" name="password" placeholder="Password">
+                        <input type="submit" value="Submit">
                     </form>
                 </div>
+
+
             </div>
         </div>
         <script>
