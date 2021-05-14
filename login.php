@@ -35,15 +35,15 @@
 </head>
 
 <body>
-    <div class="full-page">
-        <div class="navbar" style="height:auto;">
+    <div class="full-page" style="background-color: #E3BF9F; height: 768px; margin: -10px;">
+        <div class="navbar">
             <center>
                 <div>
-                    <a href='login.php'><img src="img/header.png" style="border-radius: 25px;" /></a>
+                    <a href='login.php'><img src="img/header.png" style="border-radius: 25px; margin-top:100px; margin-bottom:100px;" /></a>
                 </div>
             </center>
             <div id='login-form' class='login-page'>
-                <div style="border-radius: 5px; background-color: #f2f2f2; padding: 20px; height:max-content; margin-left:250px; margin-right:250px;">
+                <div style="border-radius: 5px; background-color: #f2f2f2; padding: 20px; height:max-content; margin-left:500px; margin-right:500px;">
                     <form action="/menupage.php">
                         <label for="username">Username</label>
                         <input type="text" id="username" name="username" placeholder="Username">
