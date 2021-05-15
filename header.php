@@ -23,7 +23,7 @@
       <a style="text-align: center; margin-top:15px; margin-left:-10px" href="menupage.php">เมนู</a>
       <a style="text-align: center; margin-top:15px; margin-left:-10px" href="profile.php">โปรไฟล์</a>
       <a style="text-align: center; margin-top:15px; margin-left:-10px" href="about.php">เกี่ยวกับร้าน</a>
-      <a style="text-align: center; margin-top:15px; margin-left:-10px" href="#survey">แบบสอบถาม</a>
+      <a style="text-align: center; margin-top:15px; margin-left:-10px" href="https://docs.google.com/forms/d/e/1FAIpQLScFRfM_HbHX4VIi29qLsy8uB2l7EzTKSfut3lV3uKvAlrEBog/viewform">แบบสอบถาม</a>
       <a style="text-align: center; margin-top:15px; margin-left:-10px" href="login.php">ออกจากระบบ</a>
     </div>
   </div>
