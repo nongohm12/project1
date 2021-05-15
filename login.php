@@ -28,20 +28,6 @@ include('connectDB.php');
     input[type=submit]:hover {
         background-color: #45a049;
     }
-    input[type=register] {
-        width: 100%;
-        background-color: #6286d8;
-        color: white;
-        padding: 14px 20px;
-        margin: 8px 0;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-    }
-
-    input[type=register]:hover {
-        background-color: #537ede;
-    }
 </style>
 
 <head>
@@ -63,8 +49,7 @@ background: linear-gradient(90deg, rgba(249,198,168,1) 0%, rgba(249,216,194,1) 3
 
                             <label for="password">Password</label>
                             <input type="text" id="password" name="password" placeholder="Password">
-                            <input type="submit" value="Submit">
-                            <input type="register" value="Register">
+                            <input type="submit" value="Submit" >
                         </form>
                     </div>
                 </div>

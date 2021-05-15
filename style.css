@@ -4,7 +4,7 @@ body {
 .header {
   /* background-color: #FAEBD7; */
   /* background-image: url("img/bg.jpg"); */
-  background: #db863d;
+  background: #68391f;
   position: fixed;
   padding: 20px;
   text-align: center;
@@ -29,12 +29,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background: rgb(249, 218, 198);
-  background: linear-gradient(
-    90deg,
-    rgba(249, 218, 198, 1) 0%,
-    rgba(250, 230, 210, 1) 100%
-  );
+  background: #9b6546;
   overflow-x: hidden;
   padding-top: 20px;
   margin-top: 88px;
@@ -45,7 +40,7 @@ body {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 20px;
-  color: #a0522d;
+  color: white;
   display: block;
   border: none;
   background: none;
