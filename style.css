@@ -184,3 +184,12 @@ q {
   grid: 150px / auto auto auto;
   grid-gap: 10px;
 }
+
+.box3{
+  width: 400px;
+  height: 300px;
+  background-color: linen;
+  border-radius: 25px;
+  padding-left: 50px;
+  margin-left: 250px;
+}
