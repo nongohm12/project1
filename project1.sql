@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.0
+-- version 5.0.4
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 14, 2021 at 08:06 PM
--- Server version: 10.4.18-MariaDB
--- PHP Version: 8.0.5
+-- Generation Time: May 15, 2021 at 06:26 PM
+-- Server version: 10.4.17-MariaDB
+-- PHP Version: 7.4.15
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -33,18 +33,19 @@ CREATE TABLE `member` (
   `mem_email` varchar(50) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL,
   `mem_fname` varchar(50) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL,
   `mem_lname` varchar(50) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL,
-  `mem_tel` int(12) NOT NULL
+  `mem_tel` int(12) NOT NULL,
+  `mem_status` varchar(6) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `member`
 --
 
-INSERT INTO `member` (`mem_username`, `mem_password`, `mem_email`, `mem_fname`, `mem_lname`, `mem_tel`) VALUES
-('dew210244', '210244', '62050747@kmitl.ac.th', 'Kansiri', 'Saengbuapheun', 925867240),
-('momay1122', 'momay123', 'momaynaphatsorn@gmail.com', 'Naphatsorn', 'Khotkok', 982852142),
-('nongohm12', 'ohm12900', 'mkonji12@hotmail.com', 'Kan', 'Chaisena', 962868882),
-('richoesxx', 'werdes27', '62050764@kmitl.ac.th', 'Thitikon', 'Chekcheenkun', 922740827);
+INSERT INTO `member` (`mem_username`, `mem_password`, `mem_email`, `mem_fname`, `mem_lname`, `mem_tel`, `mem_status`) VALUES
+('dew210244', '210244', '62050747@kmitl.ac.th', 'Kansiri', 'Saengbuapheun', 925867240, 'member'),
+('momay1122', 'momay123', 'momaynaphatsorn@gmail.com', 'Naphatsorn', 'Khotkok', 982852142, 'member'),
+('nongohm12', 'ohm12900', 'mkonji12@hotmail.com', 'Kan', 'Chaisena', 962868882, 'member'),
+('richoesxx', 'werdes27', '62050764@kmitl.ac.th', 'Thitikon', 'Chekcheenkun', 922740827, 'member');
 
 -- --------------------------------------------------------
 
